@@ -3,14 +3,19 @@ dotenv.config();
 
 // TODO: Define an interface for the Coordinates object
 interface Coordinates { 
+  name: string;
   lat: number; 
   lon: number; 
+  country: string;
+  state: string;
 }
 
 // TODO: Define a class for the Weather object
 class Weather {
   cityName: string;
   dt: number;
+  icon: string;
+  iconDescription: string;
   temp: number;
   humidity: number;
   wind_speed: number;
@@ -18,23 +23,28 @@ class Weather {
 constructor (
   cityName: string,
   dt: number,
+  icon: string;
+  iconDescription: string;
   temp: number,
   humidity: number,
   wind_speed: number
 ) {
   this.cityName= cityName;
   this.dt= dt;
-  this.temp= temp;
-  this.humidity= humidity;
-  this.wind_speed= wind_speed;
+  this.icon = icon;
+  this.iconDescription: string;
+  this.temp= string;
+  this.humidity= string;
+  this.wind_speed= string;
 }
 }
 
 // TODO: Complete the WeatherService class
 class WeatherService {
   cityName: string;
-  private baseURL?: string;
-  private appid?: string;
+  private baseURL?: string = process.env.API_BASE-URL!;
+  private appid?: string = process.env.API-KEY!;
+  private CITY: string = '';
 
   constructor() {
   this.cityName = '';
