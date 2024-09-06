@@ -1,3 +1,6 @@
+import { readFile, writeFile } from 'fs/promises';
+import * as uuid from 'uuid';
+
 // TODO: Define a City class with name and id properties
 class City {
   name: string;
