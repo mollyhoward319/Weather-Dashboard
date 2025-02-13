@@ -19,14 +19,6 @@ Download code from GitHub : [https://github.com/mollyhoward319/Weather-Dashboard
 The Weather Dashboard has user inputs where you can enter a city to view it's weather. The dashboard will present current and future conditions for the city you typed in. The weather dashboard will give you city name, date, and an icon to show what the weather will be. Then you will also get a 5-day forecast for that city that displays the date and an icon. When you click on a city in search history, you are presented with both current & future conditions for that city. You can run again with a different city.
 ![Dashboard Design ](image-2.png)
 
-## Credits
-Molly Howard : [https://github.com/mollyhoward319]
-Dafne Luna : [https://github.com/dafnefluna.]
-Leif Hetland : [https://github.com/leifehetland]
-
-FSF-PT-EAST-JUNE-05324
-W3 Schools
-
 ## Contributing
 Contribute using the GitHub repo or reach out to author Molly Howard @mollyhoward.developer@gmail.com
 
